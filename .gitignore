@@ -1,0 +1,15 @@
+# Rails secrets and environment
+/api/config/*.key
+/api/config/credentials/*.key
+.env*
+
+# Rails runtime files
+/api/log/*
+!/api/log/.keep
+/api/tmp/*
+!/api/tmp/.keep
+/api/.bundle/
+
+# Editor and OS
+.ruby-lsp/
+.DS_Store
